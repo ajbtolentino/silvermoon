@@ -1,0 +1,83 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Silvermoon Creative Design</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <link rel="stylesheet" href="~/styles/css/style.css">
+    <link rel="stylesheet" href="~/plugins/rotating_card/css/rotating-card.css">
+    <!--<link rel="stylesheet" type="text/css" href="//cloud.typography.com/630556/649664/css/fonts.css" />-->
+    <!--[if lt IE 9]>
+        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <script src="scripts/excanvas.compiled.js"></script>
+    </script><![endif]-->
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" sizes="57x57" href="~/images/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="~/images/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="~/images/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="~/images/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="~/images/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="~/images/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="~/images/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="~/images/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="~/images/favicon/apple-icon-180x180.png">
+    <link rel="shortcut icon" href="~/images/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="192x192" href="~/images/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="~/images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="~/images/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="~/images/favicon/favicon-16x16.png">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="~/images/favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - My ASP.NET Application</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+</head>
+<body>
+    <header>
+        <div id="hwrap" style="padding-bottom:10px;">
+            <a href="/" title="Silvermoon">
+                <img src="~/images/logo_sq.png" height="40" style="float: left;" />
+                <span style="float: left;margin-top: 8px; margin-left: 10px;color:#222;font-size:22px;margin-bottom: 19px;">Silvermoon</span>
+            </a>
+            <nav>
+                <a id="home-link" href="#hwrap">Home</a>
+
+                <a href="#content">About Us</a>
+                <a href="#expertise" class="active">What We Do</a>
+                <a href="#portfolio">Our Work</a>
+                <a href="#meettheteam">Meet The Team</a>
+                <a href="#testimonials">Testimonials</a>
+                <a class="btn" href="#contactus">Contact Us</a>
+            </nav>
+        </div>
+    </header>
+    <div class="container body-content">
+        @RenderBody()
+        <hr />
+        <footer>
+            <div class="inner clearfix">
+                <p class="social">
+                    <a id="fb-link" href="https://fb.com/SilverMoon-Creative-Design-292010897915225" target="_blank" title="Facebook"><i class="fa fa-facebook-square" aria-hidden="true"></i> /silvermoon-creative-design</a>
+                    <a href="http://twitter.com/silvermooncreativedesign" target="_blank" title="Twitter"><i class="fa fa-twitter-square" aria-hidden="true"></i>silvermooncreativedesign</a>
+                </p>
+                <div id="logo-footer">
+                <p>&copy; 2017 <a href="http://www.silvermooncreativedesign.com" title="">Silvermoon Creative Design</a></p>
+                </div>
+
+            </div>
+        </footer>
+    </div>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+</html>
