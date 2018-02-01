@@ -26,5 +26,10 @@ namespace Silvermoon.Controllers
 
             return View();
         }
+
+		public ActionResult MeetTheTeam()
+		{
+			return View();
+		}
     }
 }

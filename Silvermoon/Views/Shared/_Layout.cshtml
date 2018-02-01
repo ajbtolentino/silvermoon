@@ -36,7 +36,7 @@
 
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>@ViewBag.Title - My ASP.NET Application</title>
+    <title>@ViewBag.Title - Silvermoon</title>
     @Styles.Render("~/Content/css")
     @Scripts.Render("~/bundles/modernizr")
 </head>
@@ -45,16 +45,15 @@
         <div id="hwrap" style="padding-bottom:10px;">
             <a href="/" title="Silvermoon">
                 <img src="~/images/logo_sq.png" height="40" style="float: left;" />
-                <span style="float: left;margin-top: 8px; margin-left: 10px;color:#222;font-size:22px;margin-bottom: 19px;">Silvermoon</span>
+                <span style="float: left;margin-top: 8px; margin-left: 10px;color:#222;font-size:22px;margin-bottom: 19px;">Silvermoon </span>
             </a>
             <nav>
                 <a id="home-link" href="#hwrap">Home</a>
-
-                <a href="#content">About Us</a>
-                <a href="#expertise" class="active">What We Do</a>
-                <a href="#portfolio">Our Work</a>
-                <a href="#meettheteam">Meet The Team</a>
-                <a href="#testimonials">Testimonials</a>
+                <a href="/#content">About Us</a>
+                <a href="/#expertise" class="active">What We Do</a>
+                <a href="/#portfolio">Our Work</a>
+                <a href="/#meettheteam">Meet The Team</a>
+                <a href="/#testimonials">Testimonials</a>
                 <a class="btn" href="#contactus">Contact Us</a>
             </nav>
         </div>
@@ -79,5 +78,27 @@
     @Scripts.Render("~/bundles/jquery")
     @Scripts.Render("~/bundles/bootstrap")
     @RenderSection("scripts", required: false)
+
+	<script>
+		$(document).ready(function () {
+			$('nav a').click(function (e) {
+				var pname = window.location.pathname;
+				var hash = window.location.hash;
+				if (hash != "") {
+					window.location.hash = "";	
+				}
+				if (pname != "/") {
+					window.location.pathname = "/";
+				}
+
+				$('nav a').removeClass('active');
+				var $this = $(this);
+				if (!$this.hasClass('active')) {
+					$this.addClass('active');
+				}
+				//e.preventDefault();
+			});
+		});
+	</script>
 </body>
 </html>

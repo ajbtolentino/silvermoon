@@ -25,6 +25,7 @@
     <UseGlobalApplicationHostFile />
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
+    <Use64BitIISExpress />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -130,6 +131,7 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
+    <Compile Include="Controllers\ExpertiseController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ServiceController.cs" />
     <Compile Include="Global.asax.cs">
@@ -176,11 +178,13 @@
     <Content Include="Images\logo.png" />
     <Content Include="Images\logo_sq.png" />
     <Content Include="Images\marketingcampaign.png" />
+    <Content Include="Images\meet-the-team5.png" />
     <Content Include="Images\photography.png" />
     <Content Include="Images\softwaredesign.png" />
     <Content Include="Images\soundequipment.png" />
     <Content Include="Images\temp.jpg" />
     <Content Include="Images\videography.png" />
+    <Content Include="Images\web-design_banner_new1.jpg" />
     <Content Include="Images\webdesign.png" />
     <Content Include="Plugins\rotating_card\css\rotating-card.css" />
     <Content Include="Plugins\rotating_card\images\JoeChen_Dongfangbubai_SwordsmanOnline_001.jpg" />
@@ -240,6 +244,15 @@
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Styles\less\style.less" />
+    <Content Include="Views\Expertise\WebDesign.cshtml" />
+    <Content Include="Views\Expertise\ITManagement.cshtml" />
+    <Content Include="Views\Expertise\MarketingCampaignTools.cshtml" />
+    <Content Include="Views\Expertise\Photography.cshtml" />
+    <Content Include="Views\Expertise\Videography.cshtml" />
+    <Content Include="Views\Expertise\SoundEquipmentRental.cshtml" />
+    <Content Include="Views\Expertise\DocumentDesign.cshtml" />
+    <Content Include="Views\Home\MeetTheTeam.cshtml" />
+    <Content Include="Views\Expertise\GraphicsDesign.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
