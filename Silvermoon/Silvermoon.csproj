@@ -146,6 +146,7 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="Images\sm_logo.png" />
     <Content Include="Images\documentdesign.png" />
     <Content Include="Images\favicon\android-icon-144x144.png" />
     <Content Include="Images\favicon\android-icon-192x192.png" />
@@ -196,6 +197,15 @@
     <Content Include="Images\videography.png" />
     <Content Include="Images\web-design_banner_new1.jpg" />
     <Content Include="Images\webdesign.png" />
+    <Content Include="Images\whatwedo\documentdesign.png" />
+    <Content Include="Images\whatwedo\graphicdesign.png" />
+    <Content Include="Images\whatwedo\itmgmt.png" />
+    <Content Include="Images\whatwedo\marketingcampaign.png" />
+    <Content Include="Images\whatwedo\photography.png" />
+    <Content Include="Images\whatwedo\softwaredesign.png" />
+    <Content Include="Images\whatwedo\soundequipment.png" />
+    <Content Include="Images\whatwedo\videography.png" />
+    <Content Include="Images\whatwedo\webdesign.png" />
     <Content Include="Plugins\rotating_card\css\rotating-card.css" />
     <Content Include="Plugins\rotating_card\images\glenn.jpg" />
     <Content Include="Plugins\rotating_card\images\JoeChen_Dongfangbubai_SwordsmanOnline_001.jpg" />
