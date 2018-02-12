@@ -182,6 +182,13 @@
     <Content Include="Images\logo_sq.png" />
     <Content Include="Images\marketingcampaign.png" />
     <Content Include="Images\meet-the-team5.png" />
+    <Content Include="Images\ourwork\Brightmoor.jpg" />
+    <Content Include="Images\ourwork\Great Limits.jpg" />
+    <Content Include="Images\ourwork\Guardians.jpg" />
+    <Content Include="Images\ourwork\Med Access Global.jpg" />
+    <Content Include="Images\ourwork\RoadGlide.JPG" />
+    <Content Include="Images\ourwork\Romoge.jpg" />
+    <Content Include="Images\ourwork\The Glichrist Law Firm.PNG" />
     <Content Include="Images\photography.png" />
     <Content Include="Images\softwaredesign.png" />
     <Content Include="Images\soundequipment.png" />
@@ -256,9 +263,8 @@
     <Content Include="Views\Expertise\Photography.cshtml" />
     <Content Include="Views\Expertise\Videography.cshtml" />
     <Content Include="Views\Expertise\SoundEquipmentRental.cshtml" />
-    <Content Include="Views\Expertise\DocumentDesign.cshtml" />
     <Content Include="Views\Home\MeetTheTeam.cshtml" />
-    <Content Include="Views\Expertise\GraphicsDesign.cshtml" />
+    <Content Include="Views\Expertise\GraphicDesign.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

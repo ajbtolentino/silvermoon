@@ -38,12 +38,7 @@ namespace Silvermoon.Controllers
 			return View();
 		}
 
-		public ActionResult DocumentDesign()
-		{
-			return View();
-		}
-
-		public ActionResult GraphicsDesign()
+		public ActionResult GraphicDesign()
 		{
 			return View();
 		}
