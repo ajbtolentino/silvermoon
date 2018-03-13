@@ -146,6 +146,15 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="Images\banner\graphicdesigns.png" />
+    <Content Include="Images\banner\itmanagement.png" />
+    <Content Include="Images\banner\marketingcampaign.png" />
+    <Content Include="Images\banner\photography.png" />
+    <Content Include="Images\banner\softwaredevelopment.png" />
+    <Content Include="Images\banner\soundequipment.png" />
+    <Content Include="Images\banner\videography.png" />
+    <Content Include="Images\banner\webdesign.png" />
+    <Content Include="Images\silvermoon_banner.png" />
     <Content Include="Images\sm_logo.png" />
     <Content Include="Images\documentdesign.png" />
     <Content Include="Images\favicon\android-icon-144x144.png" />
@@ -231,6 +240,7 @@
     <Content Include="Plugins\rotating_card\css\.DS_Store" />
     <Content Include="Plugins\rotating_card\images\.DS_Store" />
     <Content Include="Plugins\rotating_card\less\rotating-card.less" />
+    <Content Include="Images\banner\webdesign.psd" />
     <None Include="Properties\PublishProfiles\Silvermoon.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\excanvas.compiled.js" />
@@ -303,7 +313,7 @@
     <VisualStudio>
       <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
         <WebProjectProperties>
-          <UseIIS>True</UseIIS>
+          <UseIIS>False</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
           <DevelopmentServerPort>51984</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>

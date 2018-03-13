@@ -15166,36 +15166,67 @@ section p.action:hover {
 	}
 
 #expertise-header-photography {
-	background-color: #00ff90;
+    background-image: url('/Images/banner/photography.png');
+    background-position: center;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
 }
 
 #expertise-header-webdesign {
-	background-color: #ffd8d8;
+    background-image: url('/Images/banner/webdesign.png');
+    background-position: center;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
 }
 
 #expertise-header-itmanagement {
-	background-color: #fee879;
+    background-image: url('/Images/banner/itmanagement.png');
+    background-position: center;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
 }
 
 #expertise-header-ser {
-	background-color: #ffe184;
+    background-image: url('/Images/banner/soundequipment.png');
+    background-position: center;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
 }
 
 #expertise-header-graphics {
-	/*background-color: #fe5be3;*/
-	background-image: url('../../Images/web-design_banner_new1.jpg');
-	background-position: center;
-	opacity: 0.75;
+    /*background-color: #fe5be3;*/
+    background-image: url('/Images/banner/graphicdesigns.png');
+    background-position: center;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
 }
 
 #expertise-header-videography {
-	background-color: #f16162;
+    background-image: url('/Images/banner/videography.png');
+    background-position: center;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
 }
 
 #expertise-header-mtt {
-	background-image: url('../../Images/meet-the-team5.png');
-	background-position: center;
-	opacity: 0.75;
+    background-image: url('/Images/meet-the-team5.png');
+    background-position: center;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
 }
 
 
@@ -15223,4 +15254,36 @@ section p.action:hover {
 }
 
 
+.hero-image {
+    background-image: url("/images/silvermoon_banner.png");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+}
 
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+    .hero-text button {
+        border: none;
+        outline: 0;
+        display: inline-block;
+        padding: 10px 25px;
+        color: black;
+        background-color: #ddd;
+        text-align: center;
+        cursor: pointer;
+    }
+
+        .hero-text button:hover {
+            background-color: #555;
+            color: white;
+        }
