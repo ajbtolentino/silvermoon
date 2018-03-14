@@ -154,6 +154,8 @@
     <Content Include="Images\banner\soundequipment.png" />
     <Content Include="Images\banner\videography.png" />
     <Content Include="Images\banner\webdesign.png" />
+    <Content Include="Images\bw_floor.JPG" />
+    <Content Include="Images\logo_scaled.png" />
     <Content Include="Images\silvermoon_banner.png" />
     <Content Include="Images\sm_logo.png" />
     <Content Include="Images\documentdesign.png" />
@@ -200,6 +202,7 @@
     <Content Include="Images\ourwork\Romoge.jpg" />
     <Content Include="Images\ourwork\The Glichrist Law Firm.PNG" />
     <Content Include="Images\photography.png" />
+    <Content Include="Images\sm_logo_old.png" />
     <Content Include="Images\softwaredesign.png" />
     <Content Include="Images\soundequipment.png" />
     <Content Include="Images\temp.jpg" />
@@ -241,6 +244,9 @@
     <Content Include="Plugins\rotating_card\images\.DS_Store" />
     <Content Include="Plugins\rotating_card\less\rotating-card.less" />
     <Content Include="Images\banner\webdesign.psd" />
+    <Content Include="Images\banner.psd" />
+    <Content Include="Images\silvermoon_banner.psd" />
+    <Content Include="Images\sm_logo_old.psd" />
     <None Include="Properties\PublishProfiles\Silvermoon.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\excanvas.compiled.js" />
