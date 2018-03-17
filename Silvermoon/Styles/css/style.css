@@ -7158,17 +7158,17 @@ li {
 }
 
 ::-moz-selection {
-    background: #43aaa3;
+    background: #3f5666;
     color: #fff;
 }
 
 ::selection {
-    background: #43aaa3;
+    background: #3f5666;
     color: #fff;
 }
 
 ::-moz-selection {
-    background: #43aaa3;
+    background: #3f5666;
     color: #fff;
 }
 
@@ -8580,7 +8580,7 @@ header nav a.active:after {
         }
 
 #p1 h4:after {
-    background: #43aaa3;
+    background: #3f5666;
 }
 
 #p2 h4:after {
@@ -8702,12 +8702,12 @@ header nav a.active:after {
 #testimonials {
     padding: 80px 0 120px;
     text-align: center;
-    background: #43aaa3;
+    background: #3f5666;
     position: relative;
 }
 
-    #testimonials h3 {
-        color: #12544f;
+    #testimonials h2 {
+        color: wheat;
     }
 
     #testimonials div {
@@ -8906,7 +8906,7 @@ header nav a.active:after {
                 }
 
                     #standard .text p.cta a:hover {
-                        color: #43aaa3;
+                        color: #3f5666;
                     }
 
 #features {
@@ -9097,7 +9097,7 @@ header nav a.active:after {
 }
 
 #cta-bar {
-    background: #43aaa3;
+    background: #3f5666;
     display: block;
     padding: 50px 20px 40px;
     color: #fff;
@@ -9378,7 +9378,7 @@ footer {
         }
 
             #our-work .just-launched li a:hover {
-                color: #43aaa3;
+                color: #3f5666;
             }
 
                 #our-work .just-launched li a:hover .icn {
@@ -9631,7 +9631,7 @@ footer {
         }
 
             #more-work h5 a:hover {
-                color: #43aaa3;
+                color: #3f5666;
             }
 
     #more-work #grid {
@@ -9710,8 +9710,8 @@ footer {
             }
 
                 #more-work article .content a:hover {
-                    background: #43aaa3;
-                    border-color: #43aaa3;
+                    background: #3f5666;
+                    border-color: #3f5666;
                 }
 
                 #more-work article .content a.primary:hover {
@@ -10528,7 +10528,7 @@ a.blue-btn {
             }
 
 #about #stats {
-    background-color: #43aaa3;
+    background-color: #3f5666;
     padding: 60px 0;
     text-align: center;
 }
@@ -11768,7 +11768,7 @@ a.blue-btn {
                 font-style: normal;
                 font-weight: 500;
                 margin: 0 2px;
-                color: #43aaa3;
+                color: #3f5666;
             }
 
         #blog .author .row .date-author .line {
@@ -11914,7 +11914,7 @@ a.blue-btn {
     }
 
         #contact #contact-types .play {
-            background-color: #43aaa3;
+            background-color: #3f5666;
             float: right;
             width: 26%;
             padding: 50px 11% 20px 7%;
@@ -11926,7 +11926,7 @@ a.blue-btn {
                 height: 0;
                 border-width: 0 0 441px 100px;
                 border-style: solid;
-                border-color: transparent #43aaa3 #43aaa3 transparent;
+                border-color: transparent #3f5666 #3f5666 transparent;
                 left: -100px;
                 top: 0;
                 position: absolute;
@@ -11984,7 +11984,7 @@ a.blue-btn {
 
                 #contact #contact-types a.lg-link:hover {
                     background-color: #fff;
-                    color: #43aaa3;
+                    color: #3f5666;
                     opacity: 1;
                     filter: alpha(opacity=100);
                 }
@@ -12045,7 +12045,7 @@ a.blue-btn {
     }
 
         #contact #content .btn:hover {
-            background-color: #43aaa3;
+            background-color: #3f5666;
         }
 
 @media only screen and (min-width:1600px) {
@@ -13249,7 +13249,7 @@ a.blue-btn {
         }
 
         #blog #blog-content.single-post #main-content .row .date-author .date-single a {
-            color: #43aaa3;
+            color: #3f5666;
             opacity: 1;
             filter: alpha(opacity=100);
         }
