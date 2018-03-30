@@ -23,7 +23,28 @@ select,
 textarea {
     max-width: 280px;
 }
+@media screen and (min-width:767px) {
+    #content-expertise {
+        padding: 150px 0 0;
+        padding-left: 150px;
+        padding-right: 150px;
+    }
 
-#content-expertise {
-	padding: 100px 0 0;
+    #glenn-espiritu {
+        padding: 150px 0 0;
+        padding-left: 150px;
+        padding-right: 150px;
+    }
+
+    #marissa-olarte-helbing {
+        padding: 150px 0 0;
+        padding-left: 150px;
+        padding-right: 150px;
+    }
+
+    #lloyd-miguel {
+        padding: 150px 0 0;
+        padding-left: 150px;
+        padding-right: 150px;
+    }
 }
