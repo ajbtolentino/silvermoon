@@ -8391,61 +8391,83 @@ header nav a.active:after {
         #home .pager li.active, #home .pager li.cycle-pager-active, #home .pager li:hover, .pagination li.active, .pagination li.cycle-pager-active, .pagination li:hover {
             background: #fff;
         }
-
-#content {
-    padding: 170px 0 0;
-}
-
-    #content h1 {
-        font-weight: 700;
-        margin-bottom: 40px;
-        font-size: 44px;
-        letter-spacing: -1px;
+@media screen and (min-width:767px) {
+    #content {
+        padding: 100px 0 0;
     }
-
-        #content h1 em {
-            font-weight: normal;
-            color: #f16162;
+    #base {
+        background-image: url(/images/bw_floor2.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        height: 800px;
+        text-align: center;
+        padding-top:100px;
+    }
+        #content h1 {
+            font-weight: 700;
+            margin-bottom: 40px;
+            font-size: 44px;
+            letter-spacing: -1px;
         }
 
-#about {
-    text-align: center;
-    max-width: 860px;
-    margin: 0 auto;
-    padding: 0 20px;
+            #content h1 em {
+                font-weight: normal;
+                color: #f16162;
+            }
 }
-
-    #about h2 {
-        font-size: 23px;
-        line-height: 42px;
-        font-weight: 300;
-    }
-
-#what-we-do {
-    background: #f6f5f6 no-repeat center top;
-    background-size: cover;
-    background-attachment: fixed;
-}
-
-    #what-we-do #about {
-        padding-top: 30px;
-        margin-bottom: 50px;
-    }
-
-    #what-we-do section h3 {
-        text-transform: uppercase;
+@media screen and (max-width:766px) {
+    #base {
+        padding-top:50px;
+        background-image: url(/images/bw_floor2.jpg);
+        background-position: center;
+        height: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        height: 300px;
         text-align: center;
-        margin-bottom: 30px;
-    }
-
-
-@media screen and (min-width:767px) {
-    #marissa-olarte-helbing #lloyd-miguel #glenn-espiritu {
-        padding: 100px 0 0;
-        padding-left: 150px;
-        padding-right: 150px;
     }
 }
+    #about {
+        text-align: center;
+        max-width: 860px;
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+
+        #about h2 {
+            font-size: 23px;
+            line-height: 42px;
+            font-weight: 300;
+        }
+
+    #what-we-do {
+        background: #f6f5f6 no-repeat center top;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+
+        #what-we-do #about {
+            padding-top: 30px;
+            margin-bottom: 50px;
+        }
+
+        #what-we-do section h3 {
+            text-transform: uppercase;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+
+    @media screen and (min-width:767px) {
+        #marissa-olarte-helbing #lloyd-miguel #glenn-espiritu {
+            padding: 100px 0 0;
+            padding-left: 150px;
+            padding-right: 150px;
+        }
+    }
 
     #expertise {
         text-align: center;
@@ -14052,7 +14074,7 @@ header nav a.active:after {
 
     @media only screen and (-webkit-min-device-pixel-ratio:2),only screen and (min-device-pixel-ratio:2) {
         #awards li.awa, #awards li.awwwards, #awards li.wawa, #home .slide li, #logo, #logo-footer, #portfolio article a span, #services a p.action, .icn, .page-controls a {
-            background-image: url(../img/sprites@2x.png);
+            /*background-image: url(../img/sprites@2x.png);*/
             background-size: 640px 640px;
         }
 
