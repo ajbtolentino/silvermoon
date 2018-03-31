@@ -7815,14 +7815,14 @@ header {
 
 #hwrap {
     position: relative;
-    margin: 65px 85px 0;
-    padding-bottom: 30px;
+    margin: 25px 85px 0;
+    padding-bottom: 10px;
     -webkit-transition: margin-top 300ms ease-in-out;
     transition: margin-top 300ms ease-in-out;
 }
 
 .stuck #hwrap {
-    margin-top: 30px;
+    margin-top: 10px;
 }
 
 .header-logo {
@@ -8401,7 +8401,7 @@ header nav a.active:after {
         background-repeat: no-repeat;
         background-size: cover;
         position: relative;
-        height: 800px;
+        height: 870px;
         text-align: center;
         padding-top:100px;
     }
@@ -8417,19 +8417,11 @@ header nav a.active:after {
                 color: #f16162;
             }
 }
-@media screen and (max-width:766px) {
-    #base {
-        padding-top:50px;
-        background-image: url(/images/bw_floor2.jpg);
-        background-position: center;
-        height: 100%;
-        background-repeat: no-repeat;
-        background-size: cover;
-        position: relative;
-        height: 300px;
-        text-align: center;
-    }
+#content {
+    padding: 30px 0 0;
 }
+@media screen and (min-width:766px) {
+
     #about {
         text-align: center;
         max-width: 860px;
@@ -8443,6 +8435,32 @@ header nav a.active:after {
             font-weight: 300;
         }
 
+}
+@media screen and (max-width:769px) {
+    #base {
+        padding-top: 50px;
+        background-image: url(/images/bw_floor2.jpg);
+        background-position: center;
+        height: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        height: 300px;
+        text-align: center;
+    }
+    #about {
+      text-align: center;
+        max-width: 860px;
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+
+        #about h2 {
+            font-size: 14px;
+            line-height: 30px;
+            font-weight: 300;
+        }
+}
     #what-we-do {
         background: #f6f5f6 no-repeat center top;
         background-size: cover;
@@ -8472,16 +8490,17 @@ header nav a.active:after {
     #expertise {
         text-align: center;
         max-width: 1160px;
-        padding: 0 20px;
+        padding: 0;
         margin: 0 auto 80px;
     }
+
 
         #expertise a {
             max-width: 340px;
             display: inline-block;
             background: #fff;
-            margin: 15px;
-            ;
+            margin-top: 15px;
+            margin-bottom: 15px;
             text-align: left;
             color: #3a4046;
             vertical-align: top;
@@ -8489,18 +8508,18 @@ header nav a.active:after {
         }
 
             #expertise a div {
-                padding: 10px 20px;
+                padding: 10px 20px
             }
 
             #expertise a h2 {
                 text-transform: uppercase;
                 font-size: 22px;
                 line-height: 28px;
-                padding: 15px 0;
+                padding: 15px 0
             }
 
             #expertise a p {
-                font-size: 14px;
+                font-size: 14px
             }
 
                 #expertise a p.action {
@@ -8509,12 +8528,13 @@ header nav a.active:after {
                     padding-right: 40px;
                     background: 100px -64px no-repeat;
                     -webkit-transition: background-position 200ms ease-in-out;
-                    transition: background-position 200ms ease-in-out;
+                    transition: background-position 200ms ease-in-out
                 }
 
             #expertise a:hover .action {
-                background-position: 110px -64px;
+                background-position: 110px -64px
             }
+
 
     #clients-partners, #process {
         background: #fff;
@@ -12268,6 +12288,9 @@ header nav a.active:after {
         #hwrap {
             margin: 40px 40px 0;
         }
+        .stuck #hwrap {
+            padding-top:15px;
+        }
 
         #welcome {
             padding: 0 40px 40px;
@@ -14134,10 +14157,18 @@ header nav a.active:after {
         padding-top: 15px;
     }
 
+    @media screen and (min-width:767px) {
+        #content-expertise {
+            text-align: justify;
+            padding-left: 150px;
+            padding-right: 150px;
+        }
+    }
+
     #content-expertise {
         text-align: justify;
-        padding-left: 150px;
-        padding-right: 150px;
+        padding-left: 10px;
+        padding-right: 10px;
     }
 
         #content-expertise hr {
@@ -14272,3 +14303,131 @@ header nav a.active:after {
                 background-color: #555;
                 color: white;
             }
+
+
+    /*jssor slider loading skin spin css*/
+    .jssorl-009-spin img {
+        animation-name: jssorl-009-spin;
+        animation-duration: 1.6s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+    }
+
+    @keyframes jssorl-009-spin {
+        from {
+            transform: rotate(0deg);
+        }
+
+        to {
+            transform: rotate(360deg);
+        }
+    }
+
+    /*jssor slider arrow skin 093 css*/
+    .jssora093 {
+        display: block;
+        position: absolute;
+        cursor: pointer;
+    }
+
+        .jssora093 .c {
+            fill: none;
+            stroke: #fff;
+            stroke-width: 400;
+            stroke-miterlimit: 10;
+        }
+
+        .jssora093 .a {
+            fill: none;
+            stroke: #fff;
+            stroke-width: 400;
+            stroke-miterlimit: 10;
+        }
+
+        .jssora093:hover {
+            opacity: .8;
+        }
+
+        .jssora093.jssora093dn {
+            opacity: .6;
+        }
+
+        .jssora093.jssora093ds {
+            opacity: .3;
+            pointer-events: none;
+        }
+
+    /*jssor slider thumbnail skin 101 css*/
+    .jssort101 .p {
+        position: absolute;
+        top: 0;
+        left: 0;
+        box-sizing: border-box;
+        background: #000;
+    }
+
+        .jssort101 .p .cv {
+            position: relative;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: 2px solid #000;
+            box-sizing: border-box;
+            z-index: 1;
+        }
+
+    .jssort101 .a {
+        fill: none;
+        stroke: #fff;
+        stroke-width: 400;
+        stroke-miterlimit: 10;
+        visibility: hidden;
+    }
+
+    .jssort101 .p:hover .cv, .jssort101 .p.pdn .cv {
+        border: none;
+        border-color: transparent;
+    }
+
+    .jssort101 .p:hover {
+        padding: 2px;
+    }
+
+        .jssort101 .p:hover .cv {
+            background-color: rgba(0,0,0,6);
+            opacity: .35;
+        }
+
+        .jssort101 .p:hover.pdn {
+            padding: 0;
+        }
+
+            .jssort101 .p:hover.pdn .cv {
+                border: 2px solid #fff;
+                background: none;
+                opacity: .35;
+            }
+
+    .jssort101 .pav .cv {
+        border-color: #fff;
+        opacity: .35;
+    }
+
+    .jssort101 .pav .a, .jssort101 .p:hover .a {
+        visibility: visible;
+    }
+
+    .jssort101 .t {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        border: none;
+        opacity: .6;
+    }
+
+    .jssort101 .pav .t, .jssort101 .p:hover .t {
+        opacity: 1;
+    }
