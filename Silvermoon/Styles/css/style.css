@@ -14134,9 +14134,14 @@ header nav a.active:after {
     }
 
     #contactus {
-        background: #666;
+        
+        background-color: #666;
+        background-image:url('/Images/logo.png');
+        background-size:contain;
+        background-position-x:280px;
+        background-repeat:no-repeat;
         padding: 35px !important;
-        color: #fff;
+        color: wheat;
     }
 
     section > a:hover {
@@ -14162,14 +14167,16 @@ header nav a.active:after {
             text-align: justify;
             padding-left: 150px;
             padding-right: 150px;
+            padding-bottom: 200px;
         }
     }
 
-    #content-expertise {
-        text-align: justify;
-        padding-left: 10px;
-        padding-right: 10px;
-    }
+#content-expertise {
+    text-align: justify;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+}
 
         #content-expertise hr {
             display: block;
