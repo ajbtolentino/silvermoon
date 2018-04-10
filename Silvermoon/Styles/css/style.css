@@ -14251,6 +14251,14 @@ header nav a.active:after {
         background-size: contain;
         position: relative;
     }
+#expertise-header-portfolio {
+    background-image: url('/Images/portfolio.jpg');
+    background-position: center;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+}
 
 
 
