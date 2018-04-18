@@ -14197,6 +14197,15 @@ header nav a.active:after {
         position: relative;
     }
 
+#expertise-header-softwaredesign {
+    background-image: url('/Images/banner/softwaredevelopment.png');
+    background-position: center;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+}
+
     #expertise-header-webdesign {
         background-image: url('/Images/banner/webdesign.png');
         background-position: center;

@@ -253,6 +253,7 @@
     <Content Include="Images\photography\030.jpg" />
     <Content Include="Images\photography\030b.jpg" />
     <Content Include="Images\photography\spin.svg" />
+    <Content Include="Images\portfolio.jpg" />
     <Content Include="Images\silvermoon_banner.png" />
     <Content Include="Images\sm_logo.png" />
     <Content Include="Images\documentdesign.png" />
@@ -305,6 +306,7 @@
     <Content Include="Images\softwaredesign\cop.jpg" />
     <Content Include="Images\softwaredesign\dof.jpg" />
     <Content Include="Images\softwaredesign\gcl.jpg" />
+    <Content Include="Images\softwaredesign\okc.jpg" />
     <Content Include="Images\soundequipment.png" />
     <Content Include="Images\temp.jpg" />
     <Content Include="Images\videography.png" />
@@ -346,7 +348,6 @@
     <Content Include="Plugins\rotating_card\less\rotating-card.less" />
     <Content Include="Images\banner\webdesign.psd" />
     <Content Include="Images\banner.psd" />
-    <Content Include="Images\silvermoon_banner.psd" />
     <Content Include="Images\sm_logo_old.psd" />
     <Content Include="Images\softwaredesign\sampler.psd" />
     <None Include="Properties\PublishProfiles\Silvermoon.pubxml" />
@@ -395,6 +396,7 @@
     <Content Include="Views\Home\MeetTheTeam.cshtml" />
     <Content Include="Views\Expertise\GraphicDesign.cshtml" />
     <Content Include="Views\Home\Portfolio.cshtml" />
+    <Content Include="Views\Expertise\SoftwareDesign.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
