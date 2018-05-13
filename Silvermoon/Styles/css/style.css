@@ -14296,7 +14296,7 @@ header nav a.active:after {
 
     .hero-image {
         background-image: url("/images/silvermoon_banner.png");
-        height: 100%;
+        height: 60%;
         background-position: center;
         background-repeat: no-repeat;
         background-size: contain;
